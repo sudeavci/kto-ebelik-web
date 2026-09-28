@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KTO Karatay Üniversitesi - Aile Planlaması Ödevi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#" data-page="home">
+        <img src="./assets/kto.png" class="brand-logo" alt="KTO Logo">
+        <div class="brand-text">
+            <div class="brand-title">KTO KARATAY ÜNİVERSİTESİ</div>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <button class="nav-link" type="button" data-page="home">Anasayfa</button>
+
+        <div class="dropdown">
+          <button class="nav-link" type="button">Aile Planlaması</button>
+          <div class="dropdown-content">
+            <button class="dd-item" type="button" data-page="ap_tanim">Tanım ve Amaçlar</button>
+            <button class="dd-item" type="button" data-page="ap_yontemler">Korunma Yöntemleri</button>
+            <button class="dd-item" type="button" data-page="ap_faydalari">Sağlık Faydaları</button>
+            <button class="dd-item" type="button" data-page="ap_ebenin_rolleri">Ebenin Danışmanlık Rolü</button>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="nav-link" type="button">Nüfus ve İstatistik</button>
+          <div class="dropdown-content">
+            <button class="dd-item" type="button" data-page="tr_nufus">Türkiye Nüfus Yapısı</button>
+            <button class="dd-item" type="button" data-page="tr_tdh">Doğurganlık Hızı (TDH)</button>
+            <button class="dd-item" type="button" data-page="tr_olum_oranlari">Bebek ve Anne Ölümleri</button>
+          </div>
+        </div>
+
+        <button class="nav-link" type="button" data-page="contact">İletişim</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="breadcrumb" id="breadcrumb">Anasayfa</div>
+      <h1 class="hero-title" id="heroTitle">ANASAYFA</h1>
+      <p class="hero-desc" id="heroDesc">KTO Karatay Üniversitesi Sağlık Bilimleri Fakültesi Ödevi</p>
+    </div>
+  </section>
+
+  <main class="container content" id="content">
+    </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        © <span id="year"></span> <br> 
+        Sude AVCI <br> 
+        Fatmanur DİNÇ
+      </div>
+      <div class="footer-right">Sağlık Bilimleri Fakültesi • Ebelik Bölümü</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
